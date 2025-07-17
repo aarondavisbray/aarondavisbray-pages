@@ -1,0 +1,327 @@
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+System Volume Information/
+
+# Linux
+*~
+.nfs*
+
+# Microsoft Store / UWP
+*.appxupload
+*.appxbundle
+*.msix
+*.msixbundle
+
+# VSCode
+.vscode/
+
+# JetBrains IDEs
+.idea/
+*.iml
+
+# Sublime
+*.sublime-workspace
+*.sublime-project
+
+# Atom
+.atom/
+
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+# Android/Java
+*.apk
+*.ap_
+*.dex
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+build/
+.gradle/
+local.properties
+
+# Xcode / iOS
+*.xcworkspace
+*.xcodeproj
+*.xcuserstate
+*.xcuserdata
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.moved-aside
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.pyo
+*.pyd
+env/
+venv/
+ENV/
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ruby
+*.gem
+*.rbc
+.bundle/
+vendor/
+log/
+tmp/
+db/*.sqlite3
+db/*.sqlite3-journal
+
+# PHP
+vendor/
+composer.lock
+composer.phar
+
+# Node.js / JavaScript / TypeScript
+node_modules/
+npm-debug.log
+yarn-error.log
+lerna-debug.log
+dist/
+build/
+.cache/
+.next/
+out/
+coverage/
+jspm_packages/
+lib-cov/
+*.seed
+*.log
+.pnpm-debug.log
+
+# Angular
+.angular/
+.angular-cache/
+dist/
+build/
+
+# React / Vue / Next / Svelte
+build/
+dist/
+.next/
+.nuxt/
+.svelte/
+.svelte-kit/
+out/
+.cache/
+.vite/
+
+# Go
+bin/
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+
+# C, C++
+*.out
+*.o
+*.obj
+*.gch
+*.pch
+*.lib
+*.a
+*.so
+*.dll
+*.exe
+*.dSYM/
+*.app
+
+# .NET
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Logs, envs, secrets
+*.log
+*.env
+.env.*
+!.env.example
+*.local
+*.secret
+*.bak
+
+# Database & dumps
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+*.sql
+*.bak
+*.dump
+*.mongo
+
+# Images/thumbnails/uploads/cache
+*.swp
+*.swo
+*.tmp
+*.temp
+.cache/
+uploads/
+files/
+*.pid
+
+# Old CMS/Blog systems
+wp-content/cache/
+wp-content/backups/
+wp-content/uploads/
+wp-content/upgrade/
+mt-static/
+blog_tmp/
+MovableType-Data/
+cgi-bin/
+
+# Chrome/Chromium/Browser configs (personal)
+chrome-profile/
+chromium-profile/
+*.crx
+
+# Miscellaneous
+*.pid
+*.seed
+*.pid.lock
+*.pidfile
+*.pid.*
+*~backup*
+*.old
+*.orig
+*.rej
+*.tmp
+
+# Ignore local test/config files
+test-results/
+config/
+settings/
+local_settings.py
+settings_local.py
+
+# Custom IDE files
+*.code-workspace
+*.workspace
+
+# System files
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+
+# Ignore archives
+*.zip
+*.tar.gz
+*.tar
+*.tgz
+*.rar
+*.7z
+*.gz
+*.bz2
+*.xz
+*.lz
+*.lzma
+
+# Ignore everything in /logs and /tmp
+logs/
+tmp/
+
+# Ignore npm global packages
+.npm/
+
+# Ignore package-locks and lockfiles
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Specific Facebook and legacy blog tokens (never commit secrets!)
+.facebooktoken
+.fbconfig
+*.key
+*.pem
+*.crt
+
+# Ignore project backup
+*~
+*.bak
+*.swp
+*.swo
+*.tmp
+*.temp
+
+# Ignore coverage reports
+coverage/
+.nyc_output/
+.coverage
+
+# Editor backups
+*.bak
+*.tmp
+*.temp
+
+# Misc
+*.pid
+*.seed
+*.pid.lock
+*.orig
+*.rej
+*.swp
+*.swo
+
+# If using SASS/SCSS
+.sass-cache/
+
+# If using Jekyll/Static sites
+_site/
+.jekyll-cache/
+
+# If using Gatsby/Gridsome/11ty/etc
+.cache/
+public/
+
+# Ignore other system generated files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Docker
+.docker/
+docker-compose.override.yml
+docker-compose.local.yml
+
+# GIT
+.gitmodules
+.gitattributes
+.gitconfig
+
+# CI/CD
+.circleci/
+.github/
+.gitlab-ci.yml
+.travis.yml
